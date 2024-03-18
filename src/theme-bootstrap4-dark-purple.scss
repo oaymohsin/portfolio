@@ -1,0 +1,52 @@
+@import "primeng/resources/themes/bootstrap4-dark-purple/theme.css";
+
+//for every theme we can customize the color and fonts
+
+body{
+    background-color: rgb(59, 59, 35) !important;
+    color: white !important;
+
+    
+}
+.p-button{
+    // background-color: gray !important;
+    padding: 0px;
+    border: 0;
+    margin: 0px;
+    outline: 0;
+    :hover{
+        font-size: 20px;
+        color: white;
+    }
+
+    :active{
+        background-color: black;
+        outline:0px;
+        border: none;
+        margin: 0px;
+        
+    }
+}
+
+.p-dropdown{
+    background-color:red;
+    color: white;
+    
+    :hover{
+        background-color: white;
+        color: black;
+    }
+}
+
+.p-inputtext {
+    padding: 10px ;
+    color: rgb(178, 178, 174);
+    text-align: center;
+
+}
+
+// p-inputtext
+
+h1{
+    color: white !important;
+}
