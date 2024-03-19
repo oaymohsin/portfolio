@@ -14,6 +14,7 @@ import { ButtonModule } from 'primeng/button';
 import { RouterModule } from '@angular/router';
 import { InputTextModule } from 'primeng/inputtext';
 import { HeroSectionComponent } from './hero-section/hero-section.component';
+import { SpeedDialModule } from 'primeng/speeddial';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +31,9 @@ import { HeroSectionComponent } from './hero-section/hero-section.component';
     BrowserAnimationsModule,
     RouterModule,
     ButtonModule,
-    InputTextModule
+    InputTextModule,
+    SpeedDialModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
