@@ -1,72 +1,72 @@
-header {
-  color: black;
-//   height: 70px;
-  //   background-color: rgb(105, 115, 123);
-  //   padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0px;
-  margin: 0px;
-}
-.grid {
-//   background-color: yellow;
-  display: flex;
-  align-items: center;
+// header {
+//   color: black;
+// //   height: 70px;
+//   //   background-color: rgb(105, 115, 123);
+//   //   padding: 20px;
+//   display: flex;
+//   flex-wrap: wrap;
+//   flex-direction: column;
+//   justify-content: center;
+//   padding: 0px;
+//   margin: 0px;
+// }
+// .grid {
+// //   background-color: yellow;
+//   display: flex;
+//   align-items: center;
   
-}
-ul {
-  // background: #90b346;
-    display: flex;
-    flex-wrap: nowrap;
-  li {
-    margin-right: 10px;
+// }
+// ul {
+//   // background: #90b346;
+//     display: flex;
+//     flex-wrap: nowrap;
+//   li {
+//     margin-right: 10px;
 
-    a {
-      text-decoration: none;
-      color: black;
-      cursor: pointer;
-    }
-  }
-}
-.navigation{
-    display: flex;
+//     a {
+//       text-decoration: none;
+//       color: black;
+//       cursor: pointer;
+//     }
+//   }
+// }
+// .navigation{
+//     display: flex;
    
-    align-items: center;
-    justify-content: center;
-}
-.logo,
-.tools
- {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.tools {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+//     align-items: center;
+//     justify-content: center;
+// }
+// .logo,
+// .tools
+//  {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+// .tools {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
 
-  .p-button {
-    // padding: 20px;
-    background: rgb(91, 91, 84) !important;
-    height: auto;
-    width: auto;
-    padding: 10px;
-    font-size: smaller;
-    min-width: 110px;
-    max-width: 120px;
-    overflow: hidden;
-    color: pink;
-    line-height: 1rem;
-    :hover {
-      color: red;
-      font-size: 20px;
+//   .p-button {
+//     // padding: 20px;
+//     background: rgb(91, 91, 84) !important;
+//     height: auto;
+//     width: auto;
+//     padding: 10px;
+//     font-size: smaller;
+//     min-width: 110px;
+//     max-width: 120px;
+//     overflow: hidden;
+//     color: pink;
+//     line-height: 1rem;
+//     :hover {
+//       color: red;
+//       font-size: 20px;
 
-      &-label{
-        padding: 20px;
-      }
-    }
-  }
-}
+//       &-label{
+//         padding: 20px;
+//       }
+//     }
+//   }
+// }
