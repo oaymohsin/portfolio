@@ -15,13 +15,14 @@ import { RouterModule } from '@angular/router';
 import { InputTextModule } from 'primeng/inputtext';
 import { HeroSectionComponent } from './hero-section/hero-section.component';
 import { SpeedDialModule } from 'primeng/speeddial';
+import { CardModule } from 'primeng/card';
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
     HeaderComponent,
     FooterComponent,
-    HeroSectionComponent
+    HeroSectionComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,9 +34,10 @@ import { SpeedDialModule } from 'primeng/speeddial';
     ButtonModule,
     InputTextModule,
     SpeedDialModule,
-    FormsModule
+    FormsModule,
+    CardModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
