@@ -6,15 +6,11 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-  items:any=[
-    
-      {
-        label: 'File',
-        items: [
-          { label: 'New', icon: 'pi pi-fw pi-plus' },
-          { label: 'Open', icon: 'pi pi-fw pi-folder-open' },
-          { label: 'Quit', icon: 'pi pi-fw pi-times' }
-        ]
-      }
-  ]
+  showMenu: boolean = false;
+  flexDirection: string = 'column';
+
+  toggleMenu() {
+    this.showMenu = !this.showMenu;
+    this.flexDirection = this.showMenu ? 'row' : 'column';
+  }
 }

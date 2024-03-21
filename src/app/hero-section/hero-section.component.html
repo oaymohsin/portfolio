@@ -1,11 +1,69 @@
+<!-- header  -->
+
 <div
-  class="font-poppins overflow-hidden hero-section text-indigo-500 md:mt-12 mt-12 flex items-center justify-center"
+  class="header font-poppins text-indigo-500 md:h-20 md:text-2xl text-sm font-semibold justify-end flex md:justify-between md:items-center"
+>
+  <div class="logo ml-3 md:block hidden">
+    <img class="w-auto h-10" src="assets/images/themes/linkedin.png" />
+  </div>
+  <div
+    class="navigation md:flex flex-col md:flex-row md:mt-0 mt-4"
+    id="navbarNav"
+    [class.hidden]="!showMenu"
+  >
+    <ul
+      class="md:flex text-center w-[90vw] md:w-auto flex mt-4 md:mt-0 text-indigo-500 cursor-pointer flex-col md:flex-row"
+    >
+      <li class="mx-2 hover:text-indigo-950">
+        <a href="techStack">Tech Stack</a>
+      </li>
+      <li class="mx-2 hover:text-indigo-950">Projects</li>
+      <li class="mx-2 hover:text-indigo-950">Experience</li>
+      <li class="mx-2 hover:text-indigo-950">Contact</li>
+      <li class="mx-2 hover:text-indigo-950">
+        <div class="cvButton md:hidden block ">
+          <button
+            class="bg-indigo-500 m-auto text-[10px] md:text-sm text-white  px-3 hover:bg-indigo-600 border rounded-full"
+          >
+            <a href="/assets/Mohsin Zaheer_Resume.pdf" download="cv.pdf"
+              >Download CV</a
+            >
+          </button>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="cvButton hidden md:block mr-3">
+    <button
+      class="bg-indigo-500 text-sm text-white py-2 px-3 hover:bg-indigo-600 border rounded-full"
+    >
+      <a href="/assets/Mohsin Zaheer_Resume.pdf" download="cv.pdf"
+        >Download CV</a
+      >
+    </button>
+  </div>
+
+  <div class="cvButton md:hidden mr-3">
+    <button
+      class="bg-indigo-500 text-sm text-white py-2 px-3 hover:bg-indigo-600 border rounded-full"
+      (click)="toggleMenu()"
+    >
+      <span>&#9776;</span>
+    </button>
+  </div>
+</div>
+
+<!-- header  -->
+
+<div
+  class="font-poppins overflow-hidden hero-section text-indigo-500 mt-2 md:mt-12 flex items-center justify-center"
 >
   <div
     class="grid grid-cols-12 gap-4 w-[80%] place-items-center place-content-center"
   >
-    <div class="col-span-8 p-4 flex flex-col items-center">
-      <div class=" ">
+    <div class="col-span-8 p-4 flex flex-col items-center justify-end">
+      <div class="flex flex-col">
         <h3 class="font-semibold pb-0 text-[25px] md:text-[40px]">
           Hello,<span class="text-black">I'm</span>
         </h3>
@@ -41,13 +99,15 @@
 </div>
 
 <!-- Services Section -->
-<div class="services mt-10">
+<div class="services mt-10" id="techStack">
   <div class="heading flex flex-row items-center justify-center my-[40px]">
     <div class="left-line w-[150px] md:w-[300px] h-[2px] bg-indigo-500"></div>
     <div
-      class="heading p-6 bg-white text-indigo-500 flex  text-center font-bold text-[25px] md:text-[40px]"
+      class="heading p-6 bg-white text-indigo-500 flex text-center font-bold text-[25px] md:text-[40px]"
     >
-      Technologies&nbsp;<span class="font-light"> I'm&nbsp;Working&nbsp;with</span>
+      Technologies&nbsp;<span class="font-light">
+        I'm&nbsp;Working&nbsp;with</span
+      >
     </div>
     <div class="left-line w-[150px] md:w-[300px] h-[2px] bg-indigo-500"></div>
   </div>
@@ -91,7 +151,7 @@
   </div>
 
   <div
-    class="grid  grid-cols-12 w-[80%] md:w-[60%] place-content-center mx-auto mt-6 place-items-center"
+    class="grid grid-cols-12 w-[80%] md:w-[60%] place-content-center mx-auto mt-6 place-items-center"
   >
     <div class="card p-2 col-span-2 flex items-center justify-center">
       <img class="w-12 md:w-16" src="/assets/images/icons/angular.svg" alt="" />
@@ -129,8 +189,7 @@
 <div class="heading flex flex-row items-center justify-center my-[40px]">
   <div class="left-line w-[300px] h-[2px] bg-indigo-500"></div>
   <div
-  class="heading p-6 bg-white text-indigo-500 text-center font-light text-[25px] md:text-[40px] flex "
-
+    class="heading p-6 bg-white text-indigo-500 text-center font-light text-[25px] md:text-[40px] flex"
   >
     My&nbsp;Recent <span class="font-bold"> &nbsp;Projects </span>
   </div>
@@ -333,6 +392,6 @@
 
 <!-- footer  -->
 
-<footer class="bg-indigo-500 h-16 mb-0 mt-10  flex items-center justify-center ">
+<footer class="bg-indigo-500 h-16 mb-0 mt-10 flex items-center justify-center">
   <p>&copy; 2024 All rights reserved | <b>Mohsin Zaheer</b></p>
 </footer>
