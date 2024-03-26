@@ -4,7 +4,7 @@
 <!-- header  -->
 
 <div
-  class="header overflow-hidden font-poppins md:h-20 md:text-2xl text-sm  justify-end flex md:justify-between md:items-center bg-gray-800 dark:bg-gray-900"
+  class="header overflow-hidden font-poppins md:h-20 md:text-2xl text-sm justify-end flex md:justify-between md:items-center bg-gray-800 dark:bg-gray-900"
 >
   <div class="logo ml-3 md:block hidden">
     <img class="w-auto h-10" src="assets/images/themes/linkedin.png" />
@@ -15,20 +15,20 @@
     [class.hidden]="!showMenu"
   >
     <ul
-      class="md:flex text-center w-[90vw] md:w-auto flex  md:mt-0 text-gray-300 cursor-pointer flex-col md:flex-row"
+      class="md:flex text-center w-[90vw] md:w-auto flex md:mt-0 text-gray-300 cursor-pointer flex-col md:flex-row"
     >
       <li class="mx-2 hover:text-green-500">
         <a href="techStack">Tech Stack</a>
       </li>
       <li class="mx-2 hover:text-green-500">Projects</li>
       <li class="mx-2 hover:text-green-500">Experience</li>
-      <li class="mx-2  hover:text-green-500">Contact</li>
-      <li class="mx-2 mt-3 md:hidden hover:text-green-500"><hr></li>
-      
+      <li class="mx-2 hover:text-green-500">Contact</li>
+      <li class="mx-2 mt-3 md:hidden hover:text-green-500"><hr /></li>
+
       <li class="mx-2 my-3 hover:text-green-500">
-        <div class="cvButton md:hidden block ">
+        <div class="cvButton md:hidden block">
           <button
-            class="bg-green-500 m-auto text-[10px] md:text-sm text-white  px-3 hover:bg-indigo-600 border rounded-full"
+            class="bg-green-500 m-auto text-[10px] md:text-sm text-white px-3 hover:bg-indigo-600 border rounded-full"
           >
             <a href="/assets/Mohsin Zaheer_Resume.pdf" download="cv.pdf"
               >Download CV</a
@@ -41,7 +41,7 @@
 
   <div class="cvButton hidden md:block mr-3">
     <button
-      class="bg-green-500 text-sm text-white py-2 px-3 hover:bg-green-600  border rounded-full"
+      class="bg-green-500 text-sm text-white py-2 px-3 hover:bg-green-600 border rounded-full"
     >
       <a href="/assets/Mohsin Zaheer_Resume.pdf" download="cv.pdf"
         >Download CV</a
@@ -59,23 +59,21 @@
   </div>
 </div>
 
-
-
 <!-- header  -->
 
 <div
   class="font-poppins overflow-x-hidden hero-section text-gray-300 mt-2 md:mt-12 flex items-center justify-center bg-gray-800 dark:bg-gray-900"
 >
   <div
-    class="grid grid-cols-12 gap-4 w-full md:w-[80%] place-items-center place-content-center "
+    class="grid grid-cols-12 gap-4 w-full md:w-[80%] place-items-center place-content-center"
   >
     <div class="col-span-8 p-4 flex flex-col items-center justify-end">
       <div class="flex flex-col">
         <h3 class="font-semibold pb-0 text-[20px] md:text-[40px] text-gray-300">
-          Hello,<span class=" dark:text-gray-300">I'm</span>
+          Hello,<span class="dark:text-gray-300">I'm</span>
         </h3>
         <div
-          class="font-bold text-green-500 leading-tight text-[30px] md:text-[80px] pt-0 pb-2  hover:animate-bounce"
+          class="font-bold text-green-500 leading-tight text-[30px] md:text-[80px] pt-0 pb-2 hover:animate-bounce"
         >
           Mohsin Zaheer
         </div>
@@ -85,17 +83,19 @@
           Full Stack Web Developer
         </h4>
         <p class="md:w-[80%] w-[100%] md:text-xl leading-tight text-gray-300">
-          <span class="font-semibold text-[25px] text-green-500">2+</span> years of experience
-          building interactive web applications with
-          <span class="font-semibold text-lg md:text-[25px] text-green-500">Angular</span> and
-          <span class="font-semibold text-lg md:text-[25px] text-green-500">Node.js</span>. Proven ability
-          to deliver performant and scalable solutions.
+          <span class="font-semibold text-[25px] text-green-500">2+</span> years
+          of experience building interactive web applications with
+          <span class="font-semibold text-lg md:text-[25px] text-green-500"
+            >Angular</span
+          >
+          and
+          <span class="font-semibold text-lg md:text-[25px] text-green-500"
+            >Node.js</span
+          >. Proven ability to deliver performant and scalable solutions.
         </p>
       </div>
     </div>
-    <div
-      class="col-span-4  mx-5 flex flex-col "
-    >
+    <div class="col-span-4 mx-5 flex flex-col">
       <img
         class="z-10 h-auto min-w-60 min-h-60 relative w-full overflow-hidden"
         src="./assets/images/themes/profile.png"
@@ -105,88 +105,136 @@
   </div>
 </div>
 
-
 <!-- Services Section -->
 <div class="services mt-3 md:mt-10" id="techStack">
-    <div class="heading flex flex-row items-center justify-center my-[40px]">
-      <div class="left-line w-[150px] md:w-[300px] h-[2px] bg-gray-300"></div>
-      <div
-        class="heading p-6 bg-transparent text-green-500 flex text-center font-bold text-[25px] md:text-[40px]"
+  <div class="heading flex flex-row items-center justify-center my-[40px]">
+    <div class="left-line w-[150px] md:w-[300px] h-[2px] bg-gray-300"></div>
+    <div
+      class="heading p-6 bg-transparent text-green-500 flex text-center font-bold text-[25px] md:text-[40px]"
+    >
+      Technologies&nbsp;<span class="font-light hidden md:block text-gray-300">
+        I'm&nbsp;Working&nbsp;with</span
       >
-        Technologies&nbsp;<span class="font-light text-gray-300">
-          I'm&nbsp;Working&nbsp;with</span
-        >
-      </div>
-      <div class="left-line w-[150px] md:w-[300px] h-[2px] bg-gray-300"></div>
+    </div>
+    <div class="left-line w-[150px] md:w-[300px] h-[2px] bg-gray-300"></div>
+  </div>
+  <div
+    class="grid grid-cols-12 w-[100%] md:w-[50%] m-auto gap-4 place-items-center"
+  >
+    <div
+      class="card p-2 col-span-2 flex flex-col items-center justify-center bg-gray-800 dark:bg-gray-900"
+    >
+      <img
+        class="w-12 md:w-14 hover:animate-pulse"
+        src="./assets/images/icons/tailwind.svg"
+        alt=""
+      />
     </div>
     <div
-      class="grid grid-cols-12 w-[100%] md:w-[50%] m-auto gap-4 place-items-center"
+      class="card p-2 col-span-2 flex flex-col items-center justify-center bg-gray-800 dark:bg-gray-900"
     >
-      <div
-        class="card p-2 col-span-2 flex flex-col items-center justify-center bg-gray-800 dark:bg-gray-900"
-      >
-        <img
-          class="w-12 md:w-14  hover:animate-pulse  "
-          src="./assets/images/icons/tailwind.svg"
-          alt=""
-        />
-        </div>
-      <div
-        class="card p-2 col-span-2 flex flex-col items-center justify-center bg-gray-800 dark:bg-gray-900"
-      >
-        <img class="w-12 md:w-14  hover:animate-pulse  " src="./assets/images/icons/css.svg" alt="" />
-        </div>
-      <div
-        class="card p-2 col-span-2 flex flex-col items-center justify-center bg-gray-800 dark:bg-gray-900"
-      >
-        <img class="w-12 md:w-14  hover:animate-pulse  " src="./assets/images/icons/git.svg" alt="" />
-        </div>
-      <div
-        class="card p-2 col-span-2 flex flex-col items-center justify-center bg-gray-800 dark:bg-gray-900"
-      >
-        <img
-          class="w-12 md:w-14  hover:animate-pulse  "
-          src="./assets/images/icons/bootstrap.svg"
-          alt=""
-        />
-        </div>
-      <div
-        class="card p-2 col-span-2 flex flex-col items-center justify-center bg-gray-800 dark:bg-gray-900"
-      >
-        <img class="w-12 md:w-14  hover:animate-pulse  " src="./assets/images/icons/sass.svg" alt="" />
-        </div>
-      <div
-        class="card p-2 col-span-2 flex flex-col items-center justify-center bg-gray-800 dark:bg-gray-900"
-      >
-        <img
-          class="w-12 md:w-14  hover:animate-pulse  "
-          src="./assets/images/icons/photoshop.svg"
-          alt=""
-        />
-        </div>
+      <img
+        class="w-12 md:w-14 hover:animate-pulse"
+        src="./assets/images/icons/css.svg"
+        alt=""
+      />
     </div>
+    <div
+      class="card p-2 col-span-2 flex flex-col items-center justify-center bg-gray-800 dark:bg-gray-900"
+    >
+      <img
+        class="w-12 md:w-14 hover:animate-pulse"
+        src="./assets/images/icons/git.svg"
+        alt=""
+      />
+    </div>
+    <div
+      class="card p-2 col-span-2 flex flex-col items-center justify-center bg-gray-800 dark:bg-gray-900"
+    >
+      <img
+        class="w-12 md:w-14 hover:animate-pulse"
+        src="./assets/images/icons/bootstrap.svg"
+        alt=""
+      />
+    </div>
+    <div
+      class="card p-2 col-span-2 flex flex-col items-center justify-center bg-gray-800 dark:bg-gray-900"
+    >
+      <img
+        class="w-12 md:w-14 hover:animate-pulse"
+        src="./assets/images/icons/sass.svg"
+        alt=""
+      />
+    </div>
+    <div
+      class="card p-2 col-span-2 flex flex-col items-center justify-center bg-gray-800 dark:bg-gray-900"
+    >
+      <img
+        class="w-12 md:w-14 hover:animate-pulse"
+        src="./assets/images/icons/photoshop.svg"
+        alt=""
+      />
+    </div>
+  </div>
 
-    <div class="grid grid-cols-12 w-[80%] md:w-[50%] place-content-center mx-auto mt-6 gap-4 place-items-center">
-      <div class="card p-2 col-span-2 flex items-center justify-center bg-gray-800 dark:bg-gray-900">
-        <img class="w-12 md:w-16 hover:animate-pulse" src="./assets/images/icons/angular.svg" alt="" />
-      </div>
-      <div class="card p-2 col-span-2 flex items-center justify-center bg-gray-800 dark:bg-gray-900">
-        <img class="w-12 md:w-14  hover:animate-pulse  " src="./assets/images/icons/node.svg" alt="" />
-      </div>
-      <div class="card p-2 col-span-2 flex items-center justify-center bg-gray-800 dark:bg-gray-900">
-        <img class="w-12 md:w-16 h-14  hover:animate-pulse  " src="./assets/images/icons/mongodb.svg" alt="" />
-      </div>
-      <div class="card p-2 col-span-2 flex items-center justify-center bg-gray-800 dark:bg-gray-900">
-        <img class="w-12 md:w-14  hover:animate-pulse  " src="./assets/images/icons/express.svg" alt="" />
-      </div>
-      <div class="card p-2 col-span-2 flex items-center justify-center bg-gray-800 dark:bg-gray-900">
-        <img class="w-12 md:w-14  hover:animate-pulse  " src="./assets/images/icons/github.png" alt="" />
-      </div>
-      <div class="card p-2 col-span-2 flex items-center justify-center bg-gray-800 dark:bg-gray-900">
-        <img class="w-12 md:w-14  hover:animate-pulse  " src="./assets/images/icons/html-icon.svg" alt="" />
-      </div>
+  <div
+    class="grid grid-cols-12 w-[100%] md:w-[50%] place-content-center mx-auto mt-6 gap-4 place-items-center"
+  >
+    <div
+      class="card p-2 col-span-2 flex items-center justify-center bg-gray-800 dark:bg-gray-900"
+    >
+      <img
+        class="w-12 md:w-16 hover:animate-pulse"
+        src="./assets/images/icons/angular.svg"
+        alt=""
+      />
     </div>
-    
+    <div
+      class="card p-2 col-span-2 flex items-center justify-center bg-gray-800 dark:bg-gray-900"
+    >
+      <img
+        class="w-12 md:w-14 hover:animate-pulse"
+        src="./assets/images/icons/node.svg"
+        alt=""
+      />
+    </div>
+    <div
+      class="card p-2 col-span-2 flex items-center justify-center bg-gray-800 dark:bg-gray-900"
+    >
+      <img
+        class="w-12 md:w-16 h-14 hover:animate-pulse"
+        src="./assets/images/icons/mongodb.svg"
+        alt=""
+      />
+    </div>
+    <div
+      class="card p-2 col-span-2 flex items-center justify-center bg-gray-800 dark:bg-gray-900"
+    >
+      <img
+        class="w-12 md:w-14 hover:animate-pulse"
+        src="./assets/images/icons/express.svg"
+        alt=""
+      />
+    </div>
+    <div
+      class="card p-2 col-span-2 flex items-center justify-center bg-gray-800 dark:bg-gray-900"
+    >
+      <img
+        class="w-12 md:w-14 hover:animate-pulse"
+        src="./assets/images/icons/github.png"
+        alt=""
+      />
+    </div>
+    <div
+      class="card p-2 col-span-2 flex items-center justify-center bg-gray-800 dark:bg-gray-900"
+    >
+      <img
+        class="w-12 md:w-14 hover:animate-pulse"
+        src="./assets/images/icons/html-icon.svg"
+        alt=""
+      />
+    </div>
+  </div>
 </div>
 
 <!-- services section -->
@@ -198,7 +246,8 @@
   <div
     class="heading p-6 bg-transparent text-gray-300 text-center font-light text-[25px] md:text-[40px] flex"
   >
-    My&nbsp;Recent <span class="font-bold text-green-500"> &nbsp;Projects </span>
+    My&nbsp;Recent
+    <span class="font-bold text-green-500"> &nbsp;Projects </span>
   </div>
   <div class="left-line w-[300px] h-[2px] bg-gray-300"></div>
 </div>
@@ -211,61 +260,35 @@
     class="col-span-12 md:col-span-4 card flex mx-2 md:m-2 justify-content-center bg-gray-800 dark:bg-gray-900"
   >
     <p-card
-      header="Advanced Card"
-      subheader="Card Subheader"
-      class="w-auto m-3"
+      header="E-Commerce Web App"
+      subheader="with Dashboard"
+      class="w-auto m-3 "
     >
       <ng-template pTemplate="header">
-        <img
-          alt="Card"
-          src="https://primefaces.org/cdn/primeng/images/usercard.png"
-        />
+        <img alt="Card" class=" border-t-[10px] p-4 drop-shadow-2xl border-green-500 " src="/assets/ngShop.jpg" />
       </ng-template>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed
-        consequuntur error repudiandae numquam deserunt quisquam repellat libero
-        asperiores earum nam nobis, culpa ratione quam perferendis esse,
-        cupiditate neque quas!
+      <p class="p-2 ">
+        Built with cutting-edge technologies, this project is a full-fledged
+        <b>E-Commerce web application</b>. Leveraging the power of Angular for a
+        dynamic user interface, Node.js for server-side logic, and MongoDB for a
+        flexible database, it delivers a seamless online shopping experience.
       </p>
       <ng-template pTemplate="footer">
-        <p-button label="Save" icon="pi pi-check"></p-button>
-        <p-button
-          label="Cancel"
-          icon="pi pi-times"
-          styleClass="p-button-secondary"
-          [style]="{ 'margin-left': '.5em' }"
-        ></p-button>
-      </ng-template>
-    </p-card>
-  </div>
-  <div
-    class="col-span-12 md:col-span-4 card flex mx-2 md:m-2 justify-content-center bg-gray-800 dark:bg-gray-900"
-  >
-    <p-card
-      header="Advanced Card"
-      subheader="Card Subheader"
-      class="md:w-auto m-3"
-    >
-      <ng-template pTemplate="header">
-        <img
-          alt="Card"
-          src="https://primefaces.org/cdn/primeng/images/usercard.png"
-        />
-      </ng-template>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed
-        consequuntur error repudiandae numquam deserunt quisquam repellat libero
-        asperiores earum nam nobis, culpa ratione quam perferendis esse,
-        cupiditate neque quas!
-      </p>
-      <ng-template pTemplate="footer">
-        <p-button label="Save" icon="pi pi-check"></p-button>
-        <p-button
-          label="Cancel"
-          icon="pi pi-times"
-          styleClass="p-button-secondary"
-          [style]="{ 'margin-left': '.5em' }"
-        ></p-button>
+        <a href="https://oaymohsin.github.io/ng-shop/#/">
+          <p-button
+            label="Visit"
+            icon="pi pi-external-link"
+            styleClass="hover:bg-green-500 text-sm  border hover:border-white p-2 font-bold hover:text-white text-gray-600"
+          ></p-button>
+        </a>
+        <a href="https://github.com/oaymohsin/e-commerce">
+          <p-button
+            label="Code"
+            icon="pi pi-github"
+            styleClass="hover:bg-green-500 text-sm  border hover:border-white p-2 font-bold hover:text-white text-gray-600"
+            [style]="{ 'margin-left': '.5em' }"
+          ></p-button
+        ></a>
       </ng-template>
     </p-card>
   </div>
@@ -273,34 +296,75 @@
   class="col-span-12 md:col-span-4 card flex mx-2 md:m-2 justify-content-center bg-gray-800 dark:bg-gray-900"
 >
   <p-card
-    header="Advanced Card"
-    subheader="Card Subheader"
-    class="md:w-auto m-3"
+    header="E-Commerce Web App"
+    subheader="with Dashboard"
+    class="w-auto m-3 "
   >
     <ng-template pTemplate="header">
-      <img
-        alt="Card"
-        src="https://primefaces.org/cdn/primeng/images/usercard.png"
-      />
+      <img alt="Card" class=" border-t-[10px] p-4 drop-shadow-2xl border-green-500 " src="/assets/ngShop.jpg" />
     </ng-template>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed
-      consequuntur error repudiandae numquam deserunt quisquam repellat libero
-      asperiores earum nam nobis, culpa ratione quam perferendis esse,
-      cupiditate neque quas!
+    <p class="p-2 ">
+      Built with cutting-edge technologies, this project is a full-fledged
+      <b>E-Commerce web application</b>. Leveraging the power of Angular for a
+      dynamic user interface, Node.js for server-side logic, and MongoDB for a
+      flexible database, it delivers a seamless online shopping experience.
     </p>
     <ng-template pTemplate="footer">
-      <p-button label="Save" icon="pi pi-check"></p-button>
-      <p-button
-        label="Cancel"
-        icon="pi pi-times"
-        styleClass="p-button-secondary"
-        [style]="{ 'margin-left': '.5em' }"
-      ></p-button>
+      <a href="https://oaymohsin.github.io/ng-shop/#/">
+        <p-button
+          label="Visit"
+          icon="pi pi-external-link"
+          styleClass="hover:bg-green-500 text-sm  border hover:border-white p-2 font-bold hover:text-white text-gray-600"
+        ></p-button>
+      </a>
+      <a href="https://github.com/oaymohsin/e-commerce">
+        <p-button
+          label="Code"
+          icon="pi pi-github"
+          styleClass="hover:bg-green-500 text-sm  border hover:border-white p-2 font-bold hover:text-white text-gray-600"
+          [style]="{ 'margin-left': '.5em' }"
+        ></p-button
+      ></a>
     </ng-template>
   </p-card>
 </div>
 
+<div
+class="col-span-12 md:col-span-4 card flex mx-2 md:m-2 justify-content-center bg-gray-800 dark:bg-gray-900"
+>
+<p-card
+  header="E-Commerce Web App"
+  subheader="with Dashboard"
+  class="w-auto m-3  "
+>
+  <ng-template pTemplate="header">
+    <img alt="Card" class=" border-t-[10px] p-4 drop-shadow-2xl border-green-500 " src="/assets/ngShop.jpg" />
+  </ng-template>
+  <p class="p-2 ">
+    Built with cutting-edge technologies, this project is a full-fledged
+    <b>E-Commerce web application</b>. Leveraging the power of Angular for a
+    dynamic user interface, Node.js for server-side logic, and MongoDB for a
+    flexible database, it delivers a seamless online shopping experience.
+  </p>
+  <ng-template pTemplate="footer">
+    <a href="https://oaymohsin.github.io/ng-shop/#/">
+      <p-button
+        label="Visit"
+        icon="pi pi-external-link"
+        styleClass="hover:bg-green-500 text-sm  border hover:border-white p-2 font-bold hover:text-white text-gray-600"
+      ></p-button>
+    </a>
+    <a href="https://github.com/oaymohsin/e-commerce">
+      <p-button
+        label="Code"
+        icon="pi pi-github"
+        styleClass="hover:bg-green-500 text-sm  border hover:border-white p-2 font-bold hover:text-white text-gray-600"
+        [style]="{ 'margin-left': '.5em' }"
+      ></p-button
+    ></a>
+  </ng-template>
+</p-card>
+</div>
 
 </div>
 
@@ -320,7 +384,7 @@
 >
   <div class="col-span-12 md:col-span-4 flex items-center my-[10px]">
     <div
-      class="icon hover:bg-green-500 bg-gray-800 text-gray-300 hover:text-white hover:border-solid border-2 border-green-500 rounded-full h-8 w-8 md:h-16 text-center md:w-16 flex items-center justify-center"
+      class="icon hover:bg-green-500 bg-gray-900 text-gray-300 hover:text-white hover:border-solid border-2 border-green-500 rounded-full h-8 w-8 md:h-16 text-center md:w-16 flex items-center justify-center"
     >
       <i class="pi pi-phone md:text-xl"></i>
     </div>
@@ -331,19 +395,17 @@
   </div>
   <div class="col-span-12 md:col-span-4 flex items-center my-[10px]">
     <div
-    class="icon hover:bg-green-500 bg-gray-800 text-gray-300 hover:text-white hover:border-solid border-2 border-green-500 rounded-full h-8 w-8 md:h-16 text-center md:w-16 flex items-center justify-center"
-
+      class="icon hover:bg-green-500 bg-gray-900 text-gray-300 hover:text-white hover:border-solid border-2 border-green-500 rounded-full h-8 w-8 md:h-16 text-center md:w-16 flex items-center justify-center"
     >
       <i class="pi pi-envelope md:text-xl"></i>
     </div>
     <div class="numbers font-bold ml-3">
       <div class="text-gray-300">msnoay&#64;hotmail.com</div>
-      </div>
+    </div>
   </div>
   <div class="col-span-12 md:col-span-4 flex items-center my-[10px]">
     <div
-    class="icon hover:bg-green-500 bg-gray-800 text-gray-300 hover:text-white hover:border-solid border-2 border-green-500 rounded-full h-8 w-8 md:h-16 text-center md:w-16 flex items-center justify-center"
-
+      class="icon hover:bg-green-500 bg-gray-900 text-gray-300 hover:text-white hover:border-solid border-2 border-green-500 rounded-full h-8 w-8 md:h-16 text-center md:w-16 flex items-center justify-center"
     >
       <img class="md:w-8" src="./assets/images/icons/whatsapp.png" alt="" />
     </div>
@@ -352,7 +414,6 @@
     </div>
   </div>
 </div>
-
 
 <!-- Social media  -->
 <div
@@ -363,31 +424,35 @@
   <div class="socialicons flex justify-around w-[500px]">
     <div class="col-span-4 flex items-center mt-2">
       <div
-      class="icon  rounded-full h-16 text-center w-16 flex items-center justify-center"
+        class="icon rounded-full h-16 text-center w-16 flex items-center justify-center"
       >
-        <img
-          class="w-12 hover:w-14 hover:animate-pulse"
-          src="./assets/images/icons/linkedin.png"
-          alt=""
-        />
+        <a href="https://www.linkedin.com/in/mohsin-zaheer-72b992245/">
+          <img
+            class="w-12 hover:w-14 hover:animate-pulse"
+            src="./assets/images/icons/linkedin.png"
+            alt=""
+          />
+        </a>
       </div>
     </div>
 
     <div class="col-span-4 flex items-center mt-2">
       <div
-      class="icon  rounded-full h-16 text-center w-16 flex items-center justify-center"
+        class="icon rounded-full h-16 text-center w-16 flex items-center justify-center"
       >
-        <img
-          class="w-12 hover:w-14 hover:animate-pulse"
-          src="./assets/images/icons/github.png"
-          alt=""
-        />
+        <a href="https://github.com/oaymohsin">
+          <img
+            class="w-12 hover:w-14 hover:animate-pulse"
+            src="./assets/images/icons/github.png"
+            alt=""
+          />
+        </a>
       </div>
     </div>
 
     <div class="col-span-4 flex items-center mt-2">
       <div
-        class="icon  rounded-full h-16 text-center w-16 flex items-center justify-center"
+        class="icon rounded-full h-16 text-center w-16 flex items-center justify-center"
       >
         <img
           class="w-12 hover:w-14 hover:animate-pulse"
@@ -399,7 +464,6 @@
   </div>
   <div class="left-line w-[150px] md:w-[300px] h-[2px] bg-gray-300"></div>
 </div>
-
 
 <!-- footer  -->
 

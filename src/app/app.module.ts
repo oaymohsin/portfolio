@@ -16,6 +16,7 @@ import { InputTextModule } from 'primeng/inputtext';
 import { HeroSectionComponent } from './hero-section/hero-section.component';
 import { SpeedDialModule } from 'primeng/speeddial';
 import { CardModule } from 'primeng/card';
+
 @NgModule({
   declarations: [
     AppComponent,
