@@ -16,6 +16,7 @@ import { InputTextModule } from 'primeng/inputtext';
 import { HeroSectionComponent } from './hero-section/hero-section.component';
 import { SpeedDialModule } from 'primeng/speeddial';
 import { CardModule } from 'primeng/card';
+import { WordsLimiterPipe } from './pipes/words-limiter.pipe';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { CardModule } from 'primeng/card';
     HeaderComponent,
     FooterComponent,
     HeroSectionComponent,
+    WordsLimiterPipe,
   ],
   imports: [
     BrowserModule,

@@ -262,12 +262,91 @@
     <p-card
       header="E-Commerce Web App"
       subheader="with Dashboard"
-      class="w-auto m-3 "
+      class="w-auto m-3"
     >
       <ng-template pTemplate="header">
-        <img alt="Card" class=" border-t-[10px] p-4 drop-shadow-2xl border-green-500 " src="/assets/ngShop.jpg" />
+        <img
+          alt="Card"
+          class="border-t-[10px] p-4 drop-shadow-2xl border-green-500"
+          src="/assets/ngShop.jpg"
+        />
       </ng-template>
-      <p class="p-2 ">
+      <p class="p-2">
+       {{NgShopDescription | wordsLimiter:295}}
+      </p>
+      <ng-template pTemplate="footer">
+        <a href="https://oaymohsin.github.io/ng-shop/#/">
+          <p-button
+            label="Visit"
+            icon="pi pi-external-link"
+            styleClass="hover:bg-green-500 text-sm  border hover:border-white p-2 font-bold hover:text-white text-gray-600"
+          ></p-button>
+        </a>
+        <a href="https://github.com/oaymohsin/e-commerce">
+          <p-button
+            label="Code"
+            icon="pi pi-github"
+            styleClass="hover:bg-green-500 text-sm  border hover:border-white p-2 font-bold hover:text-white text-gray-600"
+            [style]="{ 'margin-left': '.5em' }"
+          ></p-button
+        ></a>
+      </ng-template>
+    </p-card>
+  </div>
+  <div
+    class="col-span-12 md:col-span-4 card flex mx-2 md:m-2 justify-content-center bg-gray-800 dark:bg-gray-900"
+  >
+    <p-card
+      header="Netflix Clone"
+      subheader="using Angular and Tailwind CSS"
+      class="w-auto m-3"
+    >
+      <ng-template pTemplate="header">
+        <img
+          alt="Card"
+          class="border-t-[10px] p-4 drop-shadow-2xl border-green-500"
+          src="/assets/netflix clone.png"
+        />
+      </ng-template>
+      <p class="p-2">
+        {{NetflixDescription | wordsLimiter:300}}
+      </p>
+      <ng-template pTemplate="footer">
+        <a href="https://netflix-clone-two-eta-14.vercel.app/#/">
+          <p-button
+            label="Visit"
+            icon="pi pi-external-link"
+            styleClass="hover:bg-green-500 text-sm  border hover:border-white p-2 font-bold hover:text-white text-gray-600"
+          ></p-button>
+        </a>
+        <a href="https://github.com/oaymohsin/e-commerce">
+          <p-button
+            label="Code"
+            icon="pi pi-github"
+            styleClass="hover:bg-green-500 text-sm  border hover:border-white p-2 font-bold hover:text-white text-gray-600"
+            [style]="{ 'margin-left': '.5em' }"
+          ></p-button
+        ></a>
+      </ng-template>
+    </p-card>
+  </div>
+
+  <div
+    class="col-span-12 md:col-span-4 card flex mx-2 md:m-2 justify-content-center bg-gray-800 dark:bg-gray-900"
+  >
+    <p-card
+      header="E-Commerce Web App"
+      subheader="with Dashboard"
+      class="w-auto m-3"
+    >
+      <ng-template pTemplate="header">
+        <img
+          alt="Card"
+          class="border-t-[10px] p-4 drop-shadow-2xl border-green-500"
+          src="/assets/ngShop.jpg"
+        />
+      </ng-template>
+      <p class="p-2">
         Built with cutting-edge technologies, this project is a full-fledged
         <b>E-Commerce web application</b>. Leveraging the power of Angular for a
         dynamic user interface, Node.js for server-side logic, and MongoDB for a
@@ -292,80 +371,6 @@
       </ng-template>
     </p-card>
   </div>
-  <div
-  class="col-span-12 md:col-span-4 card flex mx-2 md:m-2 justify-content-center bg-gray-800 dark:bg-gray-900"
->
-  <p-card
-    header="E-Commerce Web App"
-    subheader="with Dashboard"
-    class="w-auto m-3 "
-  >
-    <ng-template pTemplate="header">
-      <img alt="Card" class=" border-t-[10px] p-4 drop-shadow-2xl border-green-500 " src="/assets/ngShop.jpg" />
-    </ng-template>
-    <p class="p-2 ">
-      Built with cutting-edge technologies, this project is a full-fledged
-      <b>E-Commerce web application</b>. Leveraging the power of Angular for a
-      dynamic user interface, Node.js for server-side logic, and MongoDB for a
-      flexible database, it delivers a seamless online shopping experience.
-    </p>
-    <ng-template pTemplate="footer">
-      <a href="https://oaymohsin.github.io/ng-shop/#/">
-        <p-button
-          label="Visit"
-          icon="pi pi-external-link"
-          styleClass="hover:bg-green-500 text-sm  border hover:border-white p-2 font-bold hover:text-white text-gray-600"
-        ></p-button>
-      </a>
-      <a href="https://github.com/oaymohsin/e-commerce">
-        <p-button
-          label="Code"
-          icon="pi pi-github"
-          styleClass="hover:bg-green-500 text-sm  border hover:border-white p-2 font-bold hover:text-white text-gray-600"
-          [style]="{ 'margin-left': '.5em' }"
-        ></p-button
-      ></a>
-    </ng-template>
-  </p-card>
-</div>
-
-<div
-class="col-span-12 md:col-span-4 card flex mx-2 md:m-2 justify-content-center bg-gray-800 dark:bg-gray-900"
->
-<p-card
-  header="E-Commerce Web App"
-  subheader="with Dashboard"
-  class="w-auto m-3  "
->
-  <ng-template pTemplate="header">
-    <img alt="Card" class=" border-t-[10px] p-4 drop-shadow-2xl border-green-500 " src="/assets/ngShop.jpg" />
-  </ng-template>
-  <p class="p-2 ">
-    Built with cutting-edge technologies, this project is a full-fledged
-    <b>E-Commerce web application</b>. Leveraging the power of Angular for a
-    dynamic user interface, Node.js for server-side logic, and MongoDB for a
-    flexible database, it delivers a seamless online shopping experience.
-  </p>
-  <ng-template pTemplate="footer">
-    <a href="https://oaymohsin.github.io/ng-shop/#/">
-      <p-button
-        label="Visit"
-        icon="pi pi-external-link"
-        styleClass="hover:bg-green-500 text-sm  border hover:border-white p-2 font-bold hover:text-white text-gray-600"
-      ></p-button>
-    </a>
-    <a href="https://github.com/oaymohsin/e-commerce">
-      <p-button
-        label="Code"
-        icon="pi pi-github"
-        styleClass="hover:bg-green-500 text-sm  border hover:border-white p-2 font-bold hover:text-white text-gray-600"
-        [style]="{ 'margin-left': '.5em' }"
-      ></p-button
-    ></a>
-  </ng-template>
-</p-card>
-</div>
-
 </div>
 
 <!-- contact section -->
