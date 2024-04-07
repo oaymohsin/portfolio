@@ -19,3 +19,24 @@ export class AppComponent {
     this.themeService.switchTheme(theme)
   }
 }
+
+
+
+
+
+
+    // const coder = {
+    //   name: 'Mohsin Zaheer',
+    //   skills: ['Angular', 'NodeJs', 'MongoDB', 'Express', 'Docker'],
+    //   hardWorker: true,
+    //   quickLearner: true,
+    //   problemSolver: true,
+    //   hireable: function () {
+    //     return (
+    //           this.hardWorker &&
+    //           this.problemSolver && 
+    //           this.skills.length >= 5
+    //     );
+    //   },
+    // };
+

@@ -17,4 +17,8 @@ export class HeroSectionComponent {
     this.showMenu = !this.showMenu;
     this.flexDirection = this.showMenu ? 'row' : 'column';
   }
+
+  scrollToSection(sectionId: string): void {
+    document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
+  }
 }
